@@ -1,0 +1,60 @@
+/* ---- header ---- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 0 0 15vw;
+}
+
+nav {
+	background-color: red;
+	position: fixed;
+	width: 15vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+/* ---- Sections ---- */
+
+section {
+	height: 100vh;
+}
+
+#baseinformation {
+	background-color: white;
+    color: #343a40;
+	display: flex;
+    justify-content: flex-start;
+	align-items: flex-end;
+	font-size: 2em;
+}
+
+#baseinformation div {
+	top: 0;
+    position: sticky;
+    border: 1px gray solid;
+	text-shadow: 2px 2px 2px #bbb;
+	display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#baseinformation a > span {
+	color: #dc8020;
+}
+
+#baseinformation div > a:first-child {
+	font-weight: 700;
+	margin-left: 0.5em;
+}
+
+#baseinformation div > a {
+	padding: 0.5em;
+}
+
+#baseinformation div > img {
+	margin-left: 1em;
+}
